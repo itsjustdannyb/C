@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+
+int multiply(int x, int y){
+
+    x = 2;
+    y = 6;
+
+    int product = x * y;
+
+    return product;
+}
+
+
+
+int main(void){
+
+    int sum = 2 + multiply(200,6);
+    printf("%d \n", sum);
+}
+
+
+
+
+
+
+
+
+
+
+
+
