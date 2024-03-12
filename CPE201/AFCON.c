@@ -32,6 +32,11 @@ int main(void){
             do{
                 groups[j][k] = countries[i];
                 count++;
+                i++;
+
+                if(count == 3){
+                    break;
+                }
             }
             while(i < 24)
 

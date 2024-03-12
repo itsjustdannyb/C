@@ -4,7 +4,7 @@
 int main(void){
 
     int count = 15;
-    int* array = malloc(sizeof(int) * count);
+    int *array = malloc(sizeof(int) * count);
 
     count++;
     int* array2 = realloc(array, sizeof(int) * count);
